@@ -31,7 +31,7 @@ function Login() {
             type="email"
             className="form-control"
             placeholder="Enter email"
-            value={password}
+            value={email}
             onChange={(e) => setEmail(e.target.value)}
           />
         </div>
